@@ -36,79 +36,79 @@
     combo_esc {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <0 1>;
-      bindings = <&kp ESC>
+      bindings = <&kp ESC>;
     };
 
     combo_return {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <18 19>;
-      bindings = <&kp ENTER>
+      bindings = <&kp ENTER>;
     };
 
     combo_tab {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <10 11>;
-      bindings = <&kp TAB>
+      bindings = <&kp TAB>;
     };
 
     combo_grave {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <8 9>;
-      bindings = <&kp GRAVE>
+      bindings = <&kp GRAVE>;
     };
 
     combo_funclayer {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <34 35>;
-      bindings = <&sl FUNC>
+      bindings = <&sl FUNC>;
     };
 
     combo_left_shift {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <20 21>;
-      bindings = <&sk LSHFT>
+      bindings = <&sk LSHFT>;
     };
 
     combo_right_shift {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <28 29>;
-      bindings = <&sk RSHFT>
+      bindings = <&sk RSHFT>;
     };
 
     combo_left_parens {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <13 14>;
-      bindings = <&kp LPAR>
+      bindings = <&kp LPAR>;
     };
 
     combo_right_parens {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <15 16>;
-      bindings = <&kp RPAR>
+      bindings = <&kp RPAR>;
     };
 
     combo_left_bracket {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <23 24>;
-      bindings = <&kp LBKT>
+      bindings = <&kp LBKT>;
     };
 
     combo_right_bracket {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <25 26>;
-      bindings = <&kp RBKT>
+      bindings = <&kp RBKT>;
     };
 
     combo_left_brace {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <3 4>;
-      bindings = <&kp LBRC>
+      bindings = <&kp LBRC>;
     };
 
     combo_right_brace {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <5 6>;
-      bindings = <&kp RBRC>
+      bindings = <&kp RBRC>;
     };
   };
 };
