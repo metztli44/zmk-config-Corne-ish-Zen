@@ -53,20 +53,20 @@
 
     combo_gui_right {
       timeout-ms = <COMBO_TIMEOUT_MS>;
-      key-positions = <6 7>;
-      bindings = <&sk LGUI>;
+      key-positions = <7 8>;
+      bindings = <&sk RGUI>;
     };
 
     combo_ctrl_right {
       timeout-ms = <COMBO_TIMEOUT_MS>;
-      key-positions = <16 17>;
-      bindings = <&sk LCTRL>;
+      key-positions = <17 18>;
+      bindings = <&sk RCTRL>;
     };
 
     combo_alt_right {
       timeout-ms = <COMBO_TIMEOUT_MS>;
-      key-positions = <26 27>;
-      bindings = <&sk LALT>;
+      key-positions = <27 28>;
+      bindings = <&sk RALT>;
     };
 
     combo_double_quote {
