@@ -182,10 +182,10 @@
 // |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  |
 //             | DEL | BSP | NUM |   | SPC | SYM  | NAV |
                         bindings = <
-   &kp Q &kp W &kp E   &kp R    &kp T          &kp Y     &kp U      &kp I     &kp O   &kp P
-   &kp A &kp S &kp D   &kp F    &kp G          &kp H     &kp J      &kp K     &kp L   &kp SEMI
-   &kp Z &kp X &kp C   &kp V    &kp B          &kp N     &kp M      &kp COMMA &kp DOT &kp FSLH
-               &kp DEL &kp BSPC &tog NUMBER    &kp SPACE &sl SYMBOL &tog NAV
+   &kp Q &kp W &kp E       &kp R    &kp T        &kp Y     &kp U      &kp I     &kp O   &kp P
+   &kp A &kp S &kp D       &kp F    &kp G        &kp H     &kp J      &kp K     &kp L   &kp SEMI
+   &kp Z &kp X &kp C       &kp V    &kp B        &kp N     &kp M      &kp COMMA &kp DOT &kp FSLH
+               &tog NUMBER &kp BSPC &sk LSHFT    &kp SPACE &sl SYMBOL &tog NAV
                         >;
                 };
                 number_layer {
@@ -200,10 +200,10 @@
                 symbol_layer {
                         label = "SYMBOL";
                         bindings = < 
-   &none     &none     &none     &none     &none         &none  &kp AMPS   &kp ASTRK &kp MINUS &kp BSLH
+   &none     &none     &none     &none     &none         &none  &kp AMPS   &kp ASTRK &kp MINUS &kp EQUAL
    &sk LGUI  &sk LALT  &sk LCTRL &sk LSHFT &kp LC(A)     &none  &kp DOLLAR &kp PRCNT &kp CARET &kp APOS
-   &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &caps_word    &none  &kp EXCL   &kp AT    &kp HASH  &none
-                       &trans    &trans    &none         &trans &none      &none
+   &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &caps_word    &none  &kp EXCL   &kp AT    &kp HASH  &kp BLSH
+                       &trans    &kp DEL   &none         &trans &none      &none
                         >;
                 };
                 nav_layer {
