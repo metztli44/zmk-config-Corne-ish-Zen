@@ -202,7 +202,7 @@
                         bindings = < 
    &none     &none     &none     &none     &none         &none  &kp AMPS   &kp ASTRK &kp MINUS &kp EQUAL
    &sk LGUI  &sk LALT  &sk LCTRL &sk LSHFT &kp LC(A)     &none  &kp DOLLAR &kp PRCNT &kp CARET &kp APOS
-   &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &caps_word    &none  &kp EXCL   &kp AT    &kp HASH  &kp BLSH
+   &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &caps_word    &none  &kp EXCL   &kp AT    &kp HASH  &kp BSLH
                        &trans    &kp DEL   &none         &trans &none      &none
                         >;
                 };
