@@ -33,6 +33,56 @@
   combos {
     compatible = "zmk,combos";
 
+    combo_gui_left {
+      timeout-ms = <COMBO_TIMEOUT_MS>;
+      key-positions = <1 2>;
+      bindings = <&sk LGUI>;
+    };
+
+    combo_ctrl_left {
+      timeout-ms = <COMBO_TIMEOUT_MS>;
+      key-positions = <11 12>;
+      bindings = <&sk LCTRL>;
+    };
+
+    combo_alt_left {
+      timeout-ms = <COMBO_TIMEOUT_MS>;
+      key-positions = <21 22>;
+      bindings = <&sk LALT>;
+    };
+
+    combo_gui_right {
+      timeout-ms = <COMBO_TIMEOUT_MS>;
+      key-positions = <6 7>;
+      bindings = <&sk RGUI>;
+    };
+
+    combo_ctrl_right {
+      timeout-ms = <COMBO_TIMEOUT_MS>;
+      key-positions = <16 17>;
+      bindings = <&sk RCTRL>;
+    };
+
+    combo_alt_right {
+      timeout-ms = <COMBO_TIMEOUT_MS>;
+      key-positions = <26 27>;
+      bindings = <&sk RALT>;
+    };
+
+    combo_double_quote {
+      timeout-ms = <COMBO_TIMEOUT_MS>;
+      key-positions = <18 19>;
+      bindings = <&kp DQT>;
+      layers = <SYMBOL>;
+    };
+
+    combo_pipe {
+      timeout-ms = <COMBO_TIMEOUT_MS>;
+      key-positions = <8 9>;
+      bindings = <&kp PIPE>;
+      layers = <SYMBOL>;
+    };
+
     combo_esc {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <0 1>;
@@ -55,6 +105,7 @@
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <8 9>;
       bindings = <&kp GRAVE>;
+      layers = <QWERTY>;
     };
 
     combo_funclayer {
@@ -79,36 +130,42 @@
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <13 14>;
       bindings = <&kp LPAR>;
+      layers = <QWERTY>;
     };
 
     combo_right_parens {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <15 16>;
       bindings = <&kp RPAR>;
+      layers = <QWERTY>;
     };
 
     combo_left_bracket {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <23 24>;
       bindings = <&kp LBKT>;
+      layers = <QWERTY>;
     };
 
     combo_right_bracket {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <25 26>;
       bindings = <&kp RBKT>;
+      layers = <QWERTY>;
     };
 
     combo_left_brace {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <3 4>;
       bindings = <&kp LBRC>;
+      layers = <QWERTY>;
     };
 
     combo_right_brace {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <5 6>;
       bindings = <&kp RBRC>;
+      layers = <QWERTY>;
     };
   };
 };
