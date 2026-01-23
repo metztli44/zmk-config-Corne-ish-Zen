@@ -69,20 +69,6 @@
       bindings = <&sk RALT>;
     };
 
-    combo_double_quote {
-      timeout-ms = <COMBO_TIMEOUT_MS>;
-      key-positions = <18 19>;
-      bindings = <&kp DQT>;
-      layers = <SYMBOL>;
-    };
-
-    combo_pipe {
-      timeout-ms = <COMBO_TIMEOUT_MS>;
-      key-positions = <8 9>;
-      bindings = <&kp PIPE>;
-      layers = <SYMBOL>;
-    };
-
     combo_esc {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <0 1>;
@@ -183,7 +169,7 @@
 //             | DEL | BSP | NUM |   | SPC | SYM  | NAV |
                         bindings = <
    &kp Q &kp W &kp E       &kp R    &kp T        &kp Y     &kp U      &kp I     &kp O   &kp P
-   &kp A &kp S &kp D       &kp F    &kp G        &kp H     &kp J      &kp K     &kp L   &kp SEMI
+   &kp A &kp S &kp D       &kp F    &kp G        &kp H     &kp J      &kp K     &kp L   &kp SQT
    &kp Z &kp X &kp C       &kp V    &kp B        &kp N     &kp M      &kp COMMA &kp DOT &kp FSLH
                &tog NUMBER &kp BSPC &sk LSHFT    &kp SPACE &sl SYMBOL &tog NAV
                         >;
@@ -200,10 +186,10 @@
                 symbol_layer {
                         label = "SYMBOL";
                         bindings = < 
-   &none     &none     &none     &none     &none         &none  &kp AMPS   &kp ASTRK &kp MINUS &kp EQUAL
-   &sk LGUI  &sk LALT  &sk LCTRL &sk LSHFT &kp LC(A)     &none  &kp DOLLAR &kp PRCNT &kp CARET &kp APOS
-   &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &caps_word    &none  &kp EXCL   &kp AT    &kp HASH  &kp BSLH
-                       &trans    &kp DEL   &none         &trans &none      &none
+   &kp EXCL  &kp AT    &kp HASH  &kp DOLLAR &kp PRCNT     &kp CARET      &kp AMPS &kp ASTRK &kp MINUS &kp EQUAL
+   &sk LGUI  &sk LALT  &sk LCTRL &sk LSHFT  &kp LC(A)     &kp LA(LS(N2)) &kp PIPE &kp BSLH  &kp COLON &kp SEMI
+   &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V)  &caps_word    &none          &none    &none     &kp UNDER &kp PLUS
+                       &trans    &kp DEL    &none         &trans         &none    &none
                         >;
                 };
                 nav_layer {
