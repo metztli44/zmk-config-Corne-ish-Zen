@@ -1,0 +1,11 @@
+/ {
+  bluetooth {
+    ble {
+      conn_interval_min = <24>;
+      conn_interval_max = <40>;
+      supervision_timeout = <4000>;
+      slave_latency = <0>;
+      att_mtu = <247>;
+    };
+  };
+};
