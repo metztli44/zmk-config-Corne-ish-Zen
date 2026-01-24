@@ -15,7 +15,7 @@
 #define NAV 3
 #define FUNC 4
 
-#define COMBO_TIMEOUT_MS 60
+#define COMBO_TIMEOUT_MS 30
 
 / {
   chosen {
